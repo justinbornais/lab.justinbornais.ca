@@ -1,6 +1,6 @@
 # Justin's Laboratory
 
-A collection of browser-based tools and utilities, hosted under [lab.justinbornais.ca](https://lab.justinbornais.ca). All tools are **100% frontend-only** — no data you insert or upload ever leaves your browser.
+A collection of browser-based tools and utilities, hosted under [lab.justinbornais.ca](https://lab.justinbornais.ca). All tools are **100% frontend-only:** no data you insert or upload ever leaves your browser.
 
 ## Tools
 
