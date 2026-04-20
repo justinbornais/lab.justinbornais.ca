@@ -24,16 +24,21 @@
     .then(function (res) { return res.json(); })
     .then(function (projects) {
       var container = document.getElementById("projects");
-      projects.forEach(function (project) {
+      projects.forEach(function (project, index) {
         var card = document.createElement("div");
         card.className = "card";
+        var cardNumber = String(index + 1).padStart(2, '0');
         card.innerHTML =
+          '<span class="card-index">' + cardNumber + '</span>' +
           "<h2>" + escapeHtml(project.name) + "</h2>" +
           "<p>" + escapeHtml(project.description) + "</p>" +
           '<div class="card-links">' +
-            '<a href="' + escapeAttr(project.url) + '" target="_blank" rel="noopener">Open Tool</a>' +
-            '<a href="' + escapeAttr(project.github) + '" target="_blank" rel="noopener">GitHub</a>' +
+            '<a href="' + escapeAttr(project.url) + '" target="_blank" rel="noopener">→ Open Tool</a>' +
+            '<a href="' + escapeAttr(project.github) + '" target="_blank" rel="noopener" class="secondary">GitHub</a>' +
           "</div>";
+        // Staggered fade-in: starts after the main section fades in (~0.4s)
+        card.style.animationDelay = (0.4 + index * 0.08) + 's';
+        card.classList.add('card-animate');
         container.appendChild(card);
       });
     });
