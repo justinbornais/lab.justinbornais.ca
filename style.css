@@ -328,7 +328,7 @@ footer {
 }
 
 footer::before {
-  content: '$ ';
+  content: '';
   color: var(--accent);
 }
 
