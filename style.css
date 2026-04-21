@@ -13,9 +13,9 @@
   --text: #1f2328;
   --text-secondary: #636c76;
   --border: #d0d7de;
-  --accent: #1a7f37;
-  --accent-2: #0969da;
-  --glow: rgba(26, 127, 55, 0.12);
+  --accent: rgb(212 175 55);
+  --accent-2: #3b82f6;
+  --glow: rgba(212, 175, 55, 0.12);
   --shadow: rgba(31, 35, 40, 0.1);
   --radius: 8px;
   --font-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace;
@@ -29,9 +29,9 @@
   --text: #e6edf3;
   --text-secondary: #7d8590;
   --border: #30363d;
-  --accent: #3fb950;
-  --accent-2: #58a6ff;
-  --glow: rgba(63, 185, 80, 0.18);
+  --accent: rgb(212 175 55);
+  --accent-2: #60a5fa;
+  --glow: rgba(212, 175, 55, 0.18);
   --shadow: rgba(0, 0, 0, 0.5);
   --grid-dot: rgba(255, 255, 255, 0.05);
 }
