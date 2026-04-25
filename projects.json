@@ -12,6 +12,12 @@
     "github": "https://github.com/justinbornais/pdf-cropper"
   },
   {
+    "name": "MusicXML to Scorify",
+    "description": "Convert MusicXML, XML, or MXL files into Typst Scorify code, with an in-browser preview of the generated score.",
+    "url": "https://musicxml.lab.justinbornais.ca",
+    "github": "https://github.com/justinbornais/musicxml-to-scorify"
+  },
+  {
     "name": "SQLite Viewer",
     "description": "A simple SQLite viewer and playground. Upload a database to browse its contents and run queries interactively.",
     "url": "https://sqlite.lab.justinbornais.ca",
