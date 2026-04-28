@@ -6,6 +6,7 @@ A collection of browser-based tools and utilities, hosted under [lab.justinborna
 
 | Tool | Description | GitHub |
 |------|-------------|--------|
+| [Angle Creator](https://pie-creator.lab.justinbornais.ca) | Create pie charts and angle guides in the browser, with export to PNG, JPEG, or PDF. | [justinbornais/pie-creator](https://github.com/justinbornais/pie-creator) |
 | [PDF Viewer](https://pdf-viewer.lab.justinbornais.ca) | A lightweight PDF viewer with horizontal scrolling, ideal for musicians reading sheet music. | [justinbornais/pdf-viewer](https://github.com/justinbornais/pdf-viewer) |
 | [PDF Cropper](https://pdf-cropper.lab.justinbornais.ca) | An advanced PDF cropping tool that can split pages mid-page, separate into multiple documents, and merge pages together. | [justinbornais/pdf-cropper](https://github.com/justinbornais/pdf-cropper) |
 | [MusicXML to Scorify](https://musicxml.lab.justinbornais.ca) | Convert MusicXML, XML, or MXL files into Typst Scorify code, with an in-browser preview of the generated score. | [justinbornais/musicxml-to-scorify](https://github.com/justinbornais/musicxml-to-scorify) |

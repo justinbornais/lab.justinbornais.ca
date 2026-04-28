@@ -46,5 +46,11 @@
     "description": "Upload a .stp or CAD file to plot spotwelds on a 3D model. Automatically traces paths between spots and exports location data to JSON.",
     "url": "https://stp.lab.justinbornais.ca",
     "github": "https://github.com/justinbornais/stp-spotweld-exporter"
+  },
+  {
+    "name": "Pie Creator",
+    "description": "Create pie charts and angle guides in the browser. Export to PNG, JPEG, or PDF.",
+    "url": "https://pie-creator.lab.justinbornais.ca",
+    "github": "https://github.com/justinbornais/pie-creator"
   }
 ]
