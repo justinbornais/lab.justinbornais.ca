@@ -52,5 +52,17 @@
     "description": "Create pie charts and angle guides in the browser. Export to PNG, JPEG, or PDF.",
     "url": "https://pie-creator.lab.justinbornais.ca",
     "github": "https://github.com/justinbornais/pie-creator"
+  },
+  {
+    "name": "ChordPro Playground",
+    "description": "Write ChordPro songs in the browser with live rendering, key-aware transposition, and PDF export.",
+    "url": "https://chordpro.lab.justinbornais.ca",
+    "github": "https://github.com/justinbornais/chordpro-renderer"
+  },
+  {
+    "name": "SQLite Diff",
+    "description": "Compare two SQLite databases entirely in the browser, including schema, metadata, and row-level data changes.",
+    "url": "https://sqlite-diff.lab.justinbornais.ca",
+    "github": "https://github.com/justinbornais/sqlite-diff"
   }
 ]
